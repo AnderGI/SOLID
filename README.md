@@ -70,7 +70,8 @@
               }
 ```
 
->[!WARNING] Book is coupled to the standard output channel. The class knows how to model the book data and how to print it. 
+>[!WARNING]
+>Book is coupled to the standard output channel. The class knows how to model the book data and how to print it. 
           
   <section>
       <article>
@@ -81,22 +82,23 @@
     </section>
 <code>Book</code> domain model
 ```
-final class Book
-{
-    public String getTitle()
-    {
-        return "A great book";
-    }
-    public String getAuthor()
-    {
-        return "John Doe";
-    }
-    public String getCurrentPage()
-    {
-        return "current page content";
-    }
-}
-```
+              final class Book
+              {
+                  public String getTitle()
+                  {
+                      return "A great book";
+                  }
+                  public String getAuthor()
+                  {
+                      return "John Doe";
+                  }
+                     public String getCurrentPage()
+                    {
+                        return "current page content";
+                    }
+              }
+  ```
+
 
 <code>Printer</code> class
 ```
