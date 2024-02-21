@@ -41,7 +41,8 @@
         <main>
           <section>
               <p><code>Book</code> domain model class</p>
-              <code>
+            </section>
+          ```
               final class Book
               {
                   public String getTitle()
@@ -57,8 +58,8 @@
                       System.out.println("current page content");
                   }
               }
-              </code>
-          </section>
+            ```
+         
           <section>
               <p><code>Client</code> domain model class</p>
               </code>
