@@ -41,7 +41,7 @@
         <main>
           <section>
               <p><code>Book</code> domain model class</p>
-              ```
+              <code>
               final class Book
               {
                   public String getTitle()
@@ -57,11 +57,11 @@
                       System.out.println("current page content");
                   }
               }
-              ```
+              </code>
           </section>
           <section>
               <p><code>Client</code> domain model class</p>
-              ```
+              </code>
               final class Client
               {
                   public Client() {
@@ -69,7 +69,7 @@
                       book.printCurrentPage();
                   }
               }
-              ```
+              </code>
           </section>
           </main>
         </article>
