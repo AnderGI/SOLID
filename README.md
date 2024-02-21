@@ -40,7 +40,7 @@
         </header>
          </article>
     </section>
-
+<code>Book</code> domain model
 ```
               final class Book
               {
@@ -59,7 +59,7 @@
               }
   ```
          
-          
+<code>Client</code> service
 ```
               final class Client
               {
@@ -69,8 +69,58 @@
                   }
               }
 ```
+
+>[!WARNING] Book is coupled to the standard output channel. The class knows how to model the book data and how to print it. 
           
+  <section>
+      <article>
+        <header>
+            <h3>Respecting SRP</h3>
+        </header>
+         </article>
+    </section>
+<code>Book</code> domain model
+```
+final class Book
+{
+    public String getTitle()
+    {
+        return "A great book";
+    }
+    public String getAuthor()
+    {
+        return "John Doe";
+    }
+    public String getCurrentPage()
+    {
+        return "current page content";
+    }
+}
+  ```
+
+<code>Printer</code> class
+```
+final class StandardOutputPrinter
+{
+    public void printPage(String page)
+    {
+        System.out.println(page);
+    }
+}
+``` 
       
+<code>Client</code> service
+```
+final class Client
+{
+    public Client() {
+        Book book = new Book(…);
+        String currentPage = book.getCurrentPage();
+        StandardOutputPrinter printer = new StandardOutputPrinter();
+        printer.printPage(currentPage);
+    }
+}
+```      
        
 
 # Open Close Principle (OCP)
