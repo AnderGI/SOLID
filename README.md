@@ -82,21 +82,21 @@
     </section>
 <code>Book</code> domain model
 ```
-              final class Book
-              {
-                  public String getTitle()
-                  {
-                      return "A great book";
-                  }
-                  public String getAuthor()
-                  {
-                      return "John Doe";
-                  }
-                     public String getCurrentPage()
-                    {
-                        return "current page content";
-                    }
-              }
+final class Book
+{
+  public String getTitle()
+  {
+    return "A great book";
+  }
+  public String getAuthor()
+  {
+    return "John Doe";
+   }
+   public String getCurrentPage()
+    {
+      return "current page content";
+     }
+  }
   ```
 
 
