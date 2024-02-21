@@ -1,4 +1,4 @@
-# SOLID Principles
+  # SOLID Principles
 
 ## Resoures
 - CodelyTv "Principios SOLID aplicados" [course](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/path/?path_id=7379060)
@@ -96,7 +96,7 @@ final class Book
         return "current page content";
     }
 }
-  ```
+```
 
 <code>Printer</code> class
 ```
