@@ -123,7 +123,8 @@ final class Client
     }
 }
 ```      
-       
+>[!NOTE]
+>We could use some kind of Printer interface as a way of establishing an abstract contract for printing functionality        
 
 # Open Close Principle (OCP)
 # Liskov Substitution Principle (LSP)
