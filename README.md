@@ -7,7 +7,7 @@
 ### What are they?
 
 # Single Responsibility Principle (SRP)
-<section>
+
   <section>
       <article>
         > A class should only have one reason to change   
@@ -38,10 +38,9 @@
         <header>
             <h3>Example of SRP violation</h3>
         </header>
-        <main>
-          <section>
-              <p><code>Book</code> domain model class</p>
-            </section>
+         </article>
+    </section>
+
 ```
               final class Book
               {
@@ -60,10 +59,8 @@
               }
   ```
          
-          <section>
-              <p><code>Client</code> domain model class</p>
-          </section>
-              ```
+          
+```
               final class Client
               {
                   public Client() {
@@ -71,12 +68,11 @@
                       book.printCurrentPage();
                   }
               }
-              ```
+```
           
-          </main>
-        </article>
-    </section>
-</section>
+      
+       
+
 # Open Close Principle (OCP)
 # Liskov Substitution Principle (LSP)
 # Interface Segregation Principle (ISP)
