@@ -62,7 +62,8 @@
          
           <section>
               <p><code>Client</code> domain model class</p>
-              </code>
+          </section>
+              ```
               final class Client
               {
                   public Client() {
@@ -70,8 +71,8 @@
                       book.printCurrentPage();
                   }
               }
-              </code>
-          </section>
+              ```
+          
           </main>
         </article>
     </section>
