@@ -8,7 +8,11 @@
 2. SRP + LSP = OCP [^1]
 
 
+> In other words, as simple as that, a subclass should override the parent class methods in a way that does not break functionality from a client’s point of view[^2].
+
+
+
 
 [^1]: [Principios SOLID aplicados - CodelyTV](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/about/).
-
+[^2]: [SOLID the first 5 priciples of object oriented design with javascript - Medium](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
