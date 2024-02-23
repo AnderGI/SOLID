@@ -1,87 +1,24 @@
 # Open Close Principle (OCP)
+> El Software debería estar abierto a extensión y cerrado a modificación[^1].
+> Objects or entities should be open for extension, but closed for modification[^2].
 
-> Software should be opened to extensions and closed to modifications
+>[!NOTE]
+>Open for extension means that we should be able to add new features or components to the application <strong>without breaking existing code</strong>.
+>Closed for modification means that we should <strong>not introduce breaking changes to existing functionality</strong>, because that would force you
+>to refactor a lot of existing code — Eric Elliott
 
-  <section>
-      <article>
-          <h2>Conceptual Introduction</h2>
-          <ul>
-            <li> Concept : 
-              <ul>
-                  <li>A class should be easily extendable without modifying the class or function itself</li>
-              </ul>
-            </li>
-            <li> How to achieve it : 
-              <ul>
-                  <li>Avoiding specific implementations and using abstractions (interfaces / abstract classes)</li>
-              </ul>
-            </li>
-             <li> Its purpose : 
-              <ul>
-                  <li>Addid use cases becomes easy task</li>
-              </ul>
-            </li>
-          </ul>
-      </article>
-    </section>
-    ###  JS example using function compositions
-Imagine we have a function that calculates the sum of all areas of x number of figures 
-```
-sum () {
- 
- const area = []
- 
- for (shape of this.shapes) {
-  
-  if (shape.type === 'Square') {
-     area.push(Math.pow(shape.length, 2)
-   } else if (shape.type === 'Circle') {
-     area.push(Math.PI * Math.pow(shape.length, 2)
-   }
- }
- return area.reduce((v, c) => c += v, 0)
-}
-```
-Having this structure of if/else or switch-cases can be valid but it does not respect the OCP principle. Everytime we add a new shape, that <code>shape.type</code> has to be added to the function itsselfs
-which can cause, among other drawbacks, testing issues. Functions, classes... Should not depend on specific things, rather they should depend on something that all those things have in common, like another class or interface. In JS there are no interfaces. We will use functions instead.
+> [!IMPORTANT]
+> Evitar depender de implementaciones específicas, haciendo uso de clases abstractas o interfaces[^1].
 
-This will be our interface :
+:+1: Facilidad para añadir nuevos Casos de uso en nuestra aplicación[^1].
 
-```
-const shapeInterface = (interfaceObject) => ({
-  type : 'geometricalFigure',
-  area : () => interfaceObject.area(interfaceObject)
-})
-```
+### :point_right:Interfaces
 
-Square impementation :
+### :point_right:Clases Abstractas
 
-```
-const square = (length) => {
-  const proto = {
-    length,
-    area : (args) => Math.pow(args.length, 2)
-  }
-  const basics = shapeInterface(proto)
-  return Object.assign(Object.create(basics), {length})
-}
-```
 
-> [!NOTE]
-> We have a lenght property for square and a area method which will take the whole proto object and implement a function base on its properties to calculate its area
 
-New sum fuction
+[^1]: [Principios SOLID aplicados - CodelyTV](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/about/).
+[^2]: [SOLID the first 5 priciples of object oriented design with javascript - Medium](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
-```
-sum() {
-  const area = []
-  for (shape of this.shapes) {
-    if (shape.type === 'shapeInterface') {
-       area.push(shape.area())
-     } else {
-       throw new Error('this is not a shapeInterface object')
-     }
-   }
-   return area.reduce((v, c) => c += v, 0)
-}
-```
+
