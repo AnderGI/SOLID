@@ -1,5 +1,6 @@
 # Dependency Inversion Principle (DIP)
 > Módulos de alto nivel no deberían depender de los de bajo nivel. Ambos deberían depender de abstracciones[^1].
+
 > Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.[^2].
 
 >[!NOTE]
