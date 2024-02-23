@@ -10,10 +10,8 @@ Fuente[^2].
 
 
 
-Here is a simple footnote[^1].
 
-A footnote can also have multiple lines[^2].
 
 [^1]: [Principios SOLID aplicados - CodelyTV](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/about/).
 [^2]: [Principios SOLID aplicados - CodelyTV](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/about/).
-  This is a second line.
+
