@@ -3,7 +3,7 @@
 Fuente[^1].
 
 > [!IMPORTANT]
-> El comportamiento de de las subclases debe respetar el contrato establecido en la superclase
+> El comportamiento de de las subclases debe respetar el contrato establecido en la superclase. Mantener correctitud funcional para poder aplicar OCP. Es decir las subclases o implementaciones de interfaces, deben mantener no solo las cabeceras de los métodos que heredan sino su función; lo que ese caso de uso representa.
 Fuente[^2].
 
 
