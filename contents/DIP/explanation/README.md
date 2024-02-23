@@ -5,12 +5,6 @@
 >[!NOTE]
 >Inyectar dependencias (parámetros recibidos en constructor). Depender de las interfaces (contratos) de estas dependencias y no de implementaciones concretas. LSP como premisa[^1].
 
->[!TIP]
->Evitar Header Interfaces promoviendo Role Interfaces[^1].
-
-> [!IMPORTANT]
-> Evitar depender de implementaciones específicas, haciendo uso de clases abstractas o interfaces[^1].
-
 :+1: Facilitar la modificación y substitución de implementaciones[^1].
 :+1: Mejor testabilidad de clases[^1].
 
