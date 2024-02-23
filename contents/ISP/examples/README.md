@@ -15,15 +15,6 @@
 :+1: Alta cohesión y bajo acoplamiento estructural[^1].
 
 
-
->[!NOTE]
->Patrón de diseño Template Method: Plantea que en la clase abstracta definiríamos un cuerpo de método que define qué operación vamos a realizar, pero estaríamos llamando a unos métodos definidos como abstractos (delegando la implementación a los hijos).
-
->[!WARNING]
->¡Pero cuidado! 👀 esto implica una pérdida de la trazabilidad de nuestro código.
-
-
-
 [^1]: [Principios SOLID aplicados - CodelyTV](https://pro.codely.com/library/principios-solid-aplicados-36875/77070/about/).
 [^2]: [SOLID the first 5 priciples of object oriented design with javascript - Medium](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
