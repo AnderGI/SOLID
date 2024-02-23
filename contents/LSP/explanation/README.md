@@ -8,7 +8,7 @@
 2. SRP + LSP = OCP [^1]
 
 
-> In other words, as simple as that, a subclass should override the parent class methods in a way that does not break functionality from a client’s point of view[^2].
+> In other words, as simple as that, a subclass should override the parent class methods in a way that does not break functionality from a <strong>client’s point of view</strong>[^2].
 
 
 
