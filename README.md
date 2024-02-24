@@ -8,6 +8,9 @@
 
 ## Exercises
 - Gilded Rose [Kata](https://kata-log.rocks/gilded-rose-kata)
-    - [x] JS-Jest (solved with function composition)
+>[!NOTE]
+> The js exercise is not completed. Add value objects for name, sellIn and quality item attributes.
+
+    - [ ] JS-Jest (using function composition)
     - [ ] Java
     - [ ] Typescript
