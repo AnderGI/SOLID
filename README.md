@@ -9,3 +9,5 @@
 ## Exercises
 - Gilded Rose [Kata](https://kata-log.rocks/gilded-rose-kata)
     - [x] JS-Jest (solved with function composition)
+    - [ ] Java
+    - [ ] Typescript
