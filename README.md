@@ -8,4 +8,4 @@
 
 ## Exercises
 - Gilded Rose [Kata](https://kata-log.rocks/gilded-rose-kata)
-    - [#] JS-Jest (solved with function composition)
+    - [x] JS-Jest (solved with function composition)
