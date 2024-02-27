@@ -15,3 +15,11 @@
     - [ ] JS-Jest (using function composition)
     - [ ] Java
     - [ ] Typescript
+
+- Composition over inheritance refactoring [Kata](https://github.com/Codesai/practice_program/tree/master/katas_java/05-refactoring-awful-inheritance-use-with-beverage-prices-kata)
+  >[!NOTE]
+  > The java exercise might need some interface refactoring.
+
+    - [ ] JS-Jest (using function composition)
+    - [ x ] Java
+    - [ ] Typescript
