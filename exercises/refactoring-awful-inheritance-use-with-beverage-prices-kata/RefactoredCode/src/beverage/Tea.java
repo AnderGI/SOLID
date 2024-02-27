@@ -1,6 +1,6 @@
 package beverage;
 
-final public class Tea implements Beverage {
+final public class Tea implements Beverage, Priceable{
 	private Price price;
 	
 	public Tea(Double value) {
@@ -11,6 +11,13 @@ final public class Tea implements Beverage {
 	public Double computeBeveragePrice() {
 		// TODO Auto-generated method stub
 		return this.price.getPriceValue();
+	}
+	
+	@Override
+	public void updatePrice(Double value) {
+		// TODO Auto-generated method stub
+		this.price = new Price(value);
+		
 	}
 
 }

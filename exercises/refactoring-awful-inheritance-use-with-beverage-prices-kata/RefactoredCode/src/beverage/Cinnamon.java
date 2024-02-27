@@ -1,6 +1,6 @@
 package beverage;
 
-final public class Cinnamon implements Supplement {
+final public class Cinnamon implements Supplement, Priceable{
 
 	private Price price;
 	
@@ -12,6 +12,13 @@ final public class Cinnamon implements Supplement {
 	public Double computeSupplementPrice() {
 		// TODO Auto-generated method stub
 		return this.price.getPriceValue();
+	}
+
+	@Override
+	public void updatePrice(Double value) {
+		// TODO Auto-generated method stub
+		this.price = new Price(value);
+		
 	}
 
 }

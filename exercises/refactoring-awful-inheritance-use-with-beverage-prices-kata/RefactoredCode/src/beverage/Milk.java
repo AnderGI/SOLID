@@ -1,6 +1,6 @@
 package beverage;
 
-final public class Milk implements Supplement {
+final public class Milk implements Supplement, Priceable {
 
 	private Price price;
 	
@@ -14,4 +14,11 @@ final public class Milk implements Supplement {
 		return this.price.getPriceValue();
 	}
 
+	@Override
+	public void updatePrice(Double value) {
+		// TODO Auto-generated method stub
+		this.price = new Price(value);
+		
+	}
+	
 }
