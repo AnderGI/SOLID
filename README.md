@@ -21,5 +21,5 @@
   > The java exercise might need some interface refactoring.
 
     - [ ] JS-Jest (using function composition)
-    - [#] Java
+    - [x] Java
     - [ ] Typescript
