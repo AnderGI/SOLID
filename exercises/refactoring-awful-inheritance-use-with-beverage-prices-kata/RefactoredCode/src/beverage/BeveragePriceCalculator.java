@@ -1,5 +1,7 @@
 package beverage;
 
+import interfaces.Beverage;
+
 final public class BeveragePriceCalculator {
 	private final Beverage base;
 	// Acoplamiento?

@@ -1,10 +1,14 @@
-package beverage;
+package models;
 
-final public class Milk implements Supplement, Priceable {
+import interfaces.Priceable;
+import interfaces.Supplement;
+import valueobjects.Price;
+
+final public class Cream implements Supplement, Priceable {
 
 	private Price price;
 	
-	public Milk(Double value) {
+	public Cream(Double value) {
 		this.price = new Price(value);
 	}
 	
@@ -20,5 +24,4 @@ final public class Milk implements Supplement, Priceable {
 		this.price = new Price(value);
 		
 	}
-	
 }

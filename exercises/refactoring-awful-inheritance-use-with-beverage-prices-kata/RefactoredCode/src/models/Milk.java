@@ -1,14 +1,19 @@
-package beverage;
+package models;
 
-final public class HotChocolate implements Beverage, Priceable {
+import interfaces.Priceable;
+import interfaces.Supplement;
+import valueobjects.Price;
+
+final public class Milk implements Supplement, Priceable {
+
 	private Price price;
 	
-	public HotChocolate(Double value) {
+	public Milk(Double value) {
 		this.price = new Price(value);
 	}
 	
 	@Override
-	public Double computeBeveragePrice() {
+	public Double computeSupplementPrice() {
 		// TODO Auto-generated method stub
 		return this.price.getPriceValue();
 	}

@@ -1,4 +1,8 @@
-package beverage;
+package models;
+
+import interfaces.Beverage;
+import interfaces.Priceable;
+import valueobjects.Price;
 
 final public class Tea implements Beverage, Priceable{
 	private Price price;

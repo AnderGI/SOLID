@@ -1,4 +1,4 @@
-package beverage;
+package interfaces;
 
 public interface Beverage {
 	Double computeBeveragePrice(); 

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import interfaces.Supplement;
+
 final public class Supplements {
 	// Me estoy acoplando a esta lista
 	final private List<Supplement> supplements = new ArrayList<>();

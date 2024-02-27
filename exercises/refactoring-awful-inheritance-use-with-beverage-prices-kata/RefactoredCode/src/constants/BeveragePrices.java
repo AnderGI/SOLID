@@ -1,4 +1,4 @@
-package beverage;
+package constants;
 
 final public class BeveragePrices {
 	public static final Double TEA = 1.5;
