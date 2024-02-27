@@ -5,6 +5,9 @@
 > [!IMPORTANT]
 > Una clase = Un concepto y responsabilidad. Clases pequeñas con objetivos acotados[^1].
 
+> [!IMPORTANT]
+> Alta cohesión y bajo acoplamiento[^1].
+
 1. Alta cohesión y robustez[^1].
 2. Permitir composición de clases (inyectar colaboradores)[^1].
 3. Evitar duplicidad de código[^1].
