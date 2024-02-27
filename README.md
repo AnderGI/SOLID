@@ -25,5 +25,5 @@
     - [ ] Typescript
 
 
-## Pro Info [🤓]
+## Pro Info 🤓
 - SOLID: the next step is Functional - Mark Seeman [:bookmark_tabs:](https://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)
