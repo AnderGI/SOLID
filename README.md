@@ -27,3 +27,4 @@
 
 ## Pro Info 🤓
 - SOLID: the next step is Functional - Mark Seeman [:bookmark_tabs:](https://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)
+- The Single Responsibility Principle - Robert C. Martin [:bookmark_tabs:](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
